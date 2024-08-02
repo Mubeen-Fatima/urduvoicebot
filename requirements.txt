@@ -2,7 +2,6 @@ streamlit
 pyaudio
 SpeechRecognition 
 gtts 
-pydub
 audio_recorder_streamlit
 transformers
 torch

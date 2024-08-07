@@ -7,7 +7,7 @@ import base64
 import tempfile
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyDXuXtClY4duKEjOyhj_nEYkLUjcJiKrs4')
+genai.configure(api_key='GEMINI_API_KEY')
 
 def main():
 

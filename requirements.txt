@@ -5,3 +5,4 @@ audio_recorder_streamlit
 transformers
 torch
 google.generativeai
+python-donenv

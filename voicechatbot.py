@@ -6,15 +6,9 @@ import os
 import base64
 import tempfile
 import google.generativeai as genai
-import toml
-# from dotenv import load_dotenv
-# load_dotenv()
-# GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
-# Load the configuration file
-config = toml.load("secret.toml")
-# Access the Gemini API key and secret
-GEMINI_API_KEY = config['gemini']['GEMINI_API_KEY']
+
+GEMINI_API_KEY = st.secrets['gemini']['GEMINI_API_KEY']
 
 genai.configure(api_key=GEMINI_API_KEY)
 

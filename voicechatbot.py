@@ -6,19 +6,44 @@ import os
 import base64
 import tempfile
 import google.generativeai as genai
+import toml
+# from dotenv import load_dotenv
+# load_dotenv()
+# GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
-from dotenv import load_dotenv
+# Load the configuration file
+config = toml.load("secret.toml")
+# Access the Gemini API key and secret
+GEMINI_API_KEY = config['gemini']['GEMINI_API_KEY']
 
-load_dotenv()
-
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=GEMINI_API_KEY)
+
 
 def main():
 
 
+
     st.title("🎤 :blue[Urdu Voice Chatbot] 💬🤖")
     st.subheader('اپنی آواز ریکارڈ کریں اور "اے آئی وائس باٹ" سے جواب حاصل کریں', divider='rainbow')
+
+    st.sidebar.header("About Urdu Voice Chatbot", divider='rainbow')
+    st.sidebar.write(f'''This a Urdu voice chatbot created using Streamlit. It takes in Urdu voice input and response in Urdu voice''')
+    
+    
+    st.sidebar.info(f'''Development process includes these steps.  
+    1️⃣ Convert Voice into text, using Google's speech recognition API.  
+    2️⃣ Give text to LLM (I used Gemini), and generate a response.
+    we can also fine-tune LLM for URDU for more accurate responses).  
+    3️⃣ Convert LLM-generated text into URDU speech by using Google TTS API.  
+    And boom, 🚀 ''')
+
+    st.sidebar.write("")  # Adds one line of space
+    st.sidebar.write("")  # Adds one line of space
+    st.sidebar.write("")  # Adds one line of space
+    st.sidebar.write("")  # Adds one line of space
+
+    
+    st.sidebar.write("Developed by [Mubeen F.] (https://mubeenf.com)")
 
     urdu_recorder = audio_recorder(text='بولیۓ', icon_size="2x", icon_name="microphone-lines", key="urdu_recorder")
 

@@ -3,6 +3,7 @@
 An intelligent conversational AI chatbot for the **Urdu language**, enabling natural, human-like voice interactions using **Gemini LLM** and **Streamlit**.
 
 🔗 **Live App:** [urduvoicebot.streamlit.app](https://urduvoicebot.streamlit.app/)
+
 🎥 **Demo Video:** [Watch on YouTube](https://youtu.be/w2ezpusfzfs)
 
 ---
@@ -99,7 +100,9 @@ urdu-voice-chatbot/
 ## 🙋‍♂️ Developed By
 
 **Website: [mubeenf.com](https://mubeenf.com)**
+
 **LinkedIn: [linkedin.com/in/mubeenf/] https://www.linkedin.com/in/mubeenf/)**
+
 **Upwork: [upwork.com/freelancers/mubee](https://www.upwork.com/freelancers/mubee)**
 
 Feel free to fork, contribute, or reach out for collaboration!

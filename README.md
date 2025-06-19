@@ -101,7 +101,7 @@ urdu-voice-chatbot/
 
 **Website: [mubeenf.com](https://mubeenf.com)**
 
-**LinkedIn: [linkedin.com/in/mubeenf/] https://www.linkedin.com/in/mubeenf/)**
+**LinkedIn: [linkedin.com/in/mubeenf](https://www.linkedin.com/in/mubeenf/)**
 
 **Upwork: [upwork.com/freelancers/mubee](https://www.upwork.com/freelancers/mubee)**
 

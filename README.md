@@ -98,7 +98,10 @@ urdu-voice-chatbot/
 
 ## 🙋‍♂️ Developed By
 
-**[Mubeen F.](https://mubeenf.com)**
+**Website: [mubeenf.com](https://mubeenf.com)**
+**LinkedIn: [linkedin.com/in/mubeenf/] https://www.linkedin.com/in/mubeenf/)**
+**Upwork: [upwork.com/freelancers/mubee](https://www.upwork.com/freelancers/mubee)**
+
 Feel free to fork, contribute, or reach out for collaboration!
 
 ---
